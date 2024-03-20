@@ -1,0 +1,45 @@
+{
+  "name": "npm-package-starter",
+  "version": "1.0.0",
+  "description": "A starter code for npm package with typescript",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup",
+    "test:cjs": "node ./test/index.cjs",
+    "test:mjs": "node ./test/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smflow/npm-package-starter.git"
+  },
+  "keywords": [
+    "Npm",
+    "package",
+    "npm",
+    "package",
+    "starter"
+  ],
+  "author": {
+    "email": "marufmunna800@gmail.com",
+    "name": "Maruf hossan",
+    "url": "https://github.com/smflow"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=16.x"
+  },
+  "bugs": {
+    "url": "https://github.com/smflow/npm-package-starter/issues"
+  },
+  "homepage": "https://github.com/smflow/npm-package-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
