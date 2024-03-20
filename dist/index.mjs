@@ -1,1 +1,1 @@
-function t(){return"Hello world"}function e(){return t()}export{e as default,t as sayHello};
+var i=function(...e){return e.join(typeof this=="string"?this:" ")};var u=(e,r,o)=>e?r:o;export{i as join,u as ternary};

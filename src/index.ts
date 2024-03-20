@@ -1,7 +1,2 @@
-export function sayHello() {
-  return "Hello world"
-}
-
-export default function test() {
-  return sayHello()
-}
+export * from "./join";
+export * from "./ternary";

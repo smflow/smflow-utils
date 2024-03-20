@@ -1,2 +1,3 @@
 # npm-package-starter
-A starter code for npm package with typescript
+
+A package for useful and necessary functions

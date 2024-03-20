@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-starter",
+  "name": "@smflow/utils",
   "version": "1.0.0",
-  "description": "A starter code for npm package with typescript",
+  "description": "A package for useful and necessary functions",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smflow/npm-package-starter.git"
+    "url": "git+https://github.com/smflow/smflow-utils.git"
   },
   "keywords": [
     "Npm",
@@ -33,9 +33,9 @@
     "node": ">=16.x"
   },
   "bugs": {
-    "url": "https://github.com/smflow/npm-package-starter/issues"
+    "url": "https://github.com/smflow/smflow-utils/issues"
   },
-  "homepage": "https://github.com/smflow/npm-package-starter#readme",
+  "homepage": "https://github.com/smflow/smflow-utils#readme",
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@babel/preset-env": "^7.24.0",
