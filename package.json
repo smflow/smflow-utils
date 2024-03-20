@@ -6,10 +6,11 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
     "build": "tsup",
+    "publish": "npm run test && npm login && npm publish --access public",
     "test:cjs": "node ./test/index.cjs",
-    "test:mjs": "node ./test/index.mjs"
+    "test:mjs": "node ./test/index.mjs",
+    "test": "npm run test:cjs && npm run test:mjs"
   },
   "repository": {
     "type": "git",
