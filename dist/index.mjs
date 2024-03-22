@@ -1,1 +1,1 @@
-var i=function(...e){return e.join(typeof this=="string"?this:" ")};var u=(e,r,o)=>e?r:o;export{i as join,u as ternary};
+var a=Object.defineProperty;var i=(n,t)=>{for(var e in t)a(n,e,{get:t[e],enumerable:!0})};var r={};i(r,{join:()=>p});var p=function(...n){return n.join(typeof this=="string"?this:" ")};var o={};i(o,{ternary:()=>u});var u=(n,t,e)=>n?t:e;var y={join:r,ternary:o},j=r,m=o,d=y;export{d as default,j as join,m as ternary};
